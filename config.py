@@ -25,7 +25,7 @@ BOT_TOKEN = environ.get("BOT_TOKEN", "7214926106:AAEmg1tTPAflFvJGPrKTSc3raQ4czGs
 PICS = (environ.get('PICS', '')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '2016390875').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "Banana478_bot") # without @
-PORT = environ.get("PORT", "8080")
+PORT = environ.get("PORT", "8000")
 
 # Clone Info :-
 CLONE_MODE = bool(environ.get('CLONE_MODE', False)) # Set True or False
