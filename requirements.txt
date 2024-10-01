@@ -1,4 +1,4 @@
-pyrofork
+https://github.com/KurimuzonAkuma/pyrogram
 Tgcrypto
 asyncio
 aiohttp
